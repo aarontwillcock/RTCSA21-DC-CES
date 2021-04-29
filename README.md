@@ -132,7 +132,8 @@ Demand Characterization of CPS with Conditionally-Enabled Sensors
 ├── ceras                                               Folder for Arduino implementation  
 │   └── ceras.ino                                           Arduino implementation of conditionally-enabled sensors
 ├── pubData                                             Folder for data used in the paper  
-│   └── gfRwsMaeExpWcd0-2021-03-03-07-39-20-compiled        Provides output values for the 10,000 simulated tasks 
+|   └── gfRwsMaeCaseStudy-2021-03-03-08-12-50.txt           Provides output values for the case study
+│   └── gfRwsMaeExpInf0-2021-04-28-18-11-00.csv             Provides output values for the 10,000 simulated tasks
 ├── pySimulation                                        Folder for Python3 Simulation files
 │   └── gfClasses.py                                        Defines classes representing equations in the paper (i.e. WCET boundaries and WCET values) 
 │   └── gfRwsExperimentDriver.py                            Initializes and executes experiments
