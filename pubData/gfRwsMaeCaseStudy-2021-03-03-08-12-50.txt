@@ -1,0 +1,24 @@
+Experiment: Case Study Experiment
+Calculating Frame: 0  of  150
+Calculating Frame: 100  of  150
+WCET Boundaries and Values:
+C: [0.778, 0.333, 0.278]
+B: [0, 10, 45, 180]
+Super Schedule:
+S: [0, 0]
+R: [0, 60]
+P: 150
+Demand Window:
+a: 0
+delta: 150
+Real-Time Task:
+p: 1
+Algorithm (type) - Table Build Time - Search Time - Asymp. - Average Computation Times (ms): 
+-----------------------------------
+GMF         (dbf)   - O(H^2 lg H)        - O(1)               :  132.93017578125
+RWS-MAE-DBF (dbf)   - O(nH) + O(H lg H)) - O(1)               :  0.57373046875
+===================================
+Algorithm (type) - Average % Improvement: 
+-----------------------------------
+GMF         (dbf)   :  -0.0
+RWS-MAE-DBF (dbf)   :  99.5683971187293
